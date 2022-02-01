@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <button type="button" class="close" aria-label="Close" ng-click="$dismiss()">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <h4 class="modal-title">Modal Title</h4>
+</div>
+<div class="modal-body">
+    <button ng-repeat="(key, device) in inputDevices" ng-click="$close(device)">
+        Camara {{k}}
+    </button>
+</div>
+<!-- <div class="modal-footer">
+    <button class="btn btn-default" type="button" ng-click="$dismiss()">
+        Cancel
+    </button>
+</div> -->
+
+<div class="popover" role="tooltip">
+    <div class="arrow"></div>
+    <h3 class="popover-title">
+        Popover Title
+    </h3>
+    <div class="popover-content">
+        Popover Content
+    </div>
+</div>
